@@ -5,8 +5,8 @@ Shared TypeScript config.
 ## Installation
 
 ```bash
-yarn add @lbwa/tsconfig -D
-# or npm i @lbwa/tsconfig -D
+yarn add @lbwa/tsconfig typescript tslib -D
+# npm i @lbwa/tsconfig typescript tslib -D
 ```
 
 ## Usage
@@ -20,6 +20,13 @@ In your project root `tsconfig.json`:
     "outDir": "dist"
   }
 }
+```
+
+Diagnosing the effective TypeScript configurations:
+
+```bash
+yarn tsc --showConfig
+# npx tsc --showConfig
 ```
 
 ## License
