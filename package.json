@@ -1,0 +1,49 @@
+{
+  "name": "@lbwa/tsconfig",
+  "version": "0.1.0",
+  "description": "Shared TypesScript config",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lbwa/tsconfig.git"
+  },
+  "author": "Liu Bowen <mr_lbw@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/lbwa/tsconfig/issues"
+  },
+  "homepage": "https://github.com/lbwa/tsconfig#readme",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts"
+  ],
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@lbwa/prettier-config": "^0.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "prettier": "@lbwa/prettier-config",
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}": [
+      "prettier --write"
+    ]
+  }
+}
