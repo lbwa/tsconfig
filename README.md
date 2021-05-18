@@ -13,12 +13,15 @@ yarn add @lbwa/tsconfig typescript@^4.2.4 tslib@^2.2.0
 
 In your project root `tsconfig.json`:
 
-```json
+```json5
 {
-  "extends": "@lbwa/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist"
-  }
+  extends: '@lbwa/tsconfig',
+  compilerOptions: {
+    outDir: 'dist' /* Redirect output structure to the directory. */,
+    incremental: true,
+    tsBuildInfoFile: 'dist/.tsbuildinfo'
+  },
+  exclude: ['dist', 'coverage']
 }
 ```
 
