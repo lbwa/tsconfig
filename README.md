@@ -5,8 +5,8 @@ Shared TypeScript config.
 ## Installation
 
 ```bash
-yarn add @lbwa/tsconfig typescript tslib -D
-# npm i @lbwa/tsconfig typescript tslib -D
+yarn add @lbwa/tsconfig typescript@^4.2.4 tslib@^2.2.0
+# npm i @lbwa/tsconfig typescript@^4.2.4 tslib@^2.2.0
 ```
 
 ## Usage
