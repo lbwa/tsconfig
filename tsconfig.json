@@ -1,6 +1,9 @@
 {
   // Visit https://aka.ms/tsconfig.json to read more about this file
-  // TO BE NOTICE: MUST NOT include any modification related to filepath
+  // TO BE NOTICE: DO NOT config 'include/exclude/files' field or other path value due to path resolution problem.
+  // Every path from config file is relative to the file they originated in.
+  // ref: https://www.staging-typescript.org/tsconfig#extends last sentence.
+  // https://github.com/Microsoft/TypeScript/issues/29172
   "compilerOptions": {
     /* Basic Options */
     "incremental": false /* Enable incremental compilation */,
@@ -11,7 +14,6 @@
     // "checkJs": true,                             /* Report errors in .js files. */
     "jsx": "react-jsx" /* Specify JSX code generation: 'preserve', 'react-native', 'react', 'react-jsx' or 'react-jsxdev'. */,
     "declaration": true /* Generates corresponding '.d.ts' file. */,
-    // Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
     // "outDir": "./",                              /* Redirect output structure to the directory. */
     "importHelpers": true /* Import emit helpers from 'tslib'. */,
     /* Strict Type-Checking Options */
@@ -40,7 +42,7 @@
     "newLine": "lf",
     "resolveJsonModule": true,
     "noEmitOnError": true,
-    "noPropertyAccessFromIndexSignature": true,
+    "noPropertyAccessFromIndexSignature": true, // v4.2
     "noFallthroughCasesInSwitch": true
   }
 }
