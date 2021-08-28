@@ -43,6 +43,7 @@
     "pretty": true,
     "newLine": "lf",
     "resolveJsonModule": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "allowUnreachableCode": false
   }
 }
