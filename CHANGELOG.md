@@ -1,6 +1,12 @@
 # Changelog
+## [1.0.0](https://github.com/lbwa/tsconfig/compare/v0.2.0...v1.0.0) (2021-08-28)
 
-All notable changes to this project will be documented in this file.
+
+### Features
+
+* disable `allowUnreachableCode` ([3e9dc10](https://github.com/lbwa/tsconfig/commit/3e9dc107c5e01745cd14d06825108b7fbcf94f71))
+* enable `noImplictOverride` ([dc50171](https://github.com/lbwa/tsconfig/commit/dc501710e960ebeab22342fd8744cc487aa069e9))
+* enable `noUncheckedIndexedAccess` ([aa46655](https://github.com/lbwa/tsconfig/commit/aa466556befa6f2d8367bb750feb620fae411579))
 
 ## [0.2.0](https://github.com/lbwa/tsconfig/compare/v0.1.0...v0.2.0) (2021-05-18)
 
