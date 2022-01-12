@@ -1,4 +1,11 @@
 # Changelog
+## [1.1.0](https://github.com/lbwa/tsconfig/compare/v1.0.0...v1.1.0) (2022-01-12)
+
+
+### Features
+
+* disable noPropertyAccessFromIndexSignature ([12cf41c](https://github.com/lbwa/tsconfig/commit/12cf41cf564b526732abe4373ee9a1a505bc7ab7)), closes [#1](https://github.com/lbwa/tsconfig/issues/1)
+
 ## [1.0.0](https://github.com/lbwa/tsconfig/compare/v0.2.0...v1.0.0) (2021-08-28)
 
 
