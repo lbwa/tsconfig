@@ -32,8 +32,8 @@
     "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
     "noImplicitOverride": true, /* Ensure overriding members in derived classes are marked with an override modifier. */
     "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
-    "noUncheckedIndexedAccess": true,            /* Include 'undefined' in index signature results */
-    "noPropertyAccessFromIndexSignature": true /* v4.2, Require undeclared properties from index signatures to use element accesses. */,
+    "noUncheckedIndexedAccess": true, /* Include 'undefined' in index signature results */
+    "noPropertyAccessFromIndexSignature": false /* v4.2, Require undeclared properties from index signatures to use element accesses. */,
     /* Module Resolution Options */
     "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
     "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */,
