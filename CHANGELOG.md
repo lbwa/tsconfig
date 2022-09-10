@@ -1,4 +1,11 @@
 # Changelog
+### [1.1.1](https://github.com/lbwa/tsconfig/compare/v1.1.0...v1.1.1) (2022-09-10)
+
+
+### Bug Fixes
+
+* change react semver to >=17.0.2 ([0fb9b08](https://github.com/lbwa/tsconfig/commit/0fb9b0838f51dfc17ee1cf6d1db2a259ae8f5535))
+
 ## [1.1.0](https://github.com/lbwa/tsconfig/compare/v1.0.0...v1.1.0) (2022-01-12)
 
 
