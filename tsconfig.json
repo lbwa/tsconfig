@@ -44,6 +44,8 @@
     "newLine": "lf",
     "resolveJsonModule": true,
     "noEmitOnError": true,
-    "allowUnreachableCode": false
+    "allowUnreachableCode": false,
+    "sourceMap": true,
+    "stripInternal": true
   }
 }
