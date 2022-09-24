@@ -1,4 +1,11 @@
 # Changelog
+## [1.2.0](https://github.com/lbwa/tsconfig/compare/v1.1.2...v1.2.0) (2022-09-24)
+
+
+### Features
+
+* enable sourceMap and stripInternal ([615ea3f](https://github.com/lbwa/tsconfig/commit/615ea3ff5546ff738d995cda2da25829eb705978))
+
 ### [1.1.2](https://github.com/lbwa/tsconfig/compare/v1.1.1...v1.1.2) (2022-09-10)
 
 
