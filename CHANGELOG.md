@@ -1,4 +1,11 @@
 # Changelog
+## [1.2.1](https://github.com/lbwa/tsconfig/compare/v1.2.0...v1.2.1) (2023-12-17)
+
+
+### Bug Fixes
+
+* bump typescript to 5.3.3 ([c34a905](https://github.com/lbwa/tsconfig/commit/c34a9059f87be228171b7982d834f3ccd7311ce4))
+
 ## [1.2.0](https://github.com/lbwa/tsconfig/compare/v1.1.2...v1.2.0) (2022-09-24)
 
 

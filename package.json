@@ -1,6 +1,6 @@
 {
   "name": "@lbwa/tsconfig",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared TypesScript config",
   "main": "tsconfig.json",
   "repository": {
