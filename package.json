@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/lbwa/tsconfig.git"
   },
-  "author": "Liu Bowen <mr_lbw@outlook.com>",
+  "author": "Liu Bowen <asyncmode@gmail.com>",
   "license": "MIT",
   "private": false,
   "bugs": {
@@ -25,19 +25,18 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\""
   },
-  "dependencies": {},
   "devDependencies": {
     "@lbwa/prettier-config": "^0.1.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
-    "typescript": "^4.2.4"
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "@types/react": ">=17.0.5",
     "react": ">=17.0.2",
     "tslib": "^2.2.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4 || ^5.3.3"
   },
   "peerDependenciesMeta": {
     "@types/react": {
