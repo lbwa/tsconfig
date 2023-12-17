@@ -27,16 +27,9 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
-      - name: Install dependencies
-        if: ${{ steps.release.outputs.release_created }}
-        run: npm install
-
-      - run: Publish package
+      - name: Publish package
         if: ${{ steps.release.outputs.release_created }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: npm publish
+
